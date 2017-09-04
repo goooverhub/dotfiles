@@ -33,6 +33,7 @@ set expandtab
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+set noswapfile
 
 let g:syntastic_always_populate_loc_list = 1
 let g:ycm_global_ycm_extra_conf = "$HOME/.ycm_extra_conf.py"
