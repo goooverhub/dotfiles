@@ -6,6 +6,6 @@
 # Migrate to New Workspace
 * `alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'`
 * `echo ".dotfiles" >> .gitignore`
-* `git clnoe --bare https://github.com/shilinsias/dotfiles.git $HOME/.dotfiles`
+* `git clone --bare https://github.com/shilinsias/dotfiles.git $HOME/.dotfiles`
 * `alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'`
 * `dotfiles checkout`
