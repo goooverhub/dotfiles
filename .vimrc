@@ -16,6 +16,7 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'vim-airline/vim-airline'
 Plugin 'mileszs/ack.vim'
 Plugin 'chun-yang/auto-pairs'
+Plugin 'w0ng/vim-hybrid'
 call vundle#end()            " required
 filetype plugin indent on    " required
 syntax on:
@@ -33,6 +34,8 @@ set expandtab
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+set background=dark
+colorscheme hybrid
 set noswapfile
 
 let g:syntastic_always_populate_loc_list = 1
@@ -43,6 +46,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let NERDTreeShowBookmarks=1
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+let g:javascript_plugin_flow = 1
 map <C-n> :NERDTreeToggle<CR>
 cnoreabbrev Ack Ack!
 nnoremap <Leader>a :Ack!<Space>
