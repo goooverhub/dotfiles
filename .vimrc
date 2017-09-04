@@ -42,6 +42,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let NERDTreeShowBookmarks=1
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 map <C-n> :NERDTreeToggle<CR>
 cnoreabbrev Ack Ack!
 nnoremap <Leader>a :Ack!<Space>
