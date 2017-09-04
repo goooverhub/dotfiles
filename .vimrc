@@ -17,6 +17,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'mileszs/ack.vim'
 Plugin 'chun-yang/auto-pairs'
 Plugin 'w0ng/vim-hybrid'
+Plugin 'marijnh/tern_for_vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 syntax on:
