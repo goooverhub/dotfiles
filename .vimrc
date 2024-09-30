@@ -6,7 +6,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'kien/ctrlp.vim'
+" Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'tpope/vim-fugitive'
@@ -49,6 +49,7 @@ let NERDTreeShowBookmarks=1
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 let g:javascript_plugin_flow = 1
 map <C-n> :NERDTreeToggle<CR>
+map <C-p> :FZF<CR>
 cnoreabbrev Ack Ack!
 nnoremap <Leader>a :Ack!<Space>
 set backspace=indent,eol,start
